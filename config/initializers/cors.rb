@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'postgres://ydzfddusgpaeai:694c9ab74648710aa92cd4ef5aea6146c0baa690ba063ecb0525992592a69707@ec2-52-87-135-240.compute-1.amazonaws.com:5432/d77tblu1ufkhin'
+    origins ' https://artster-api.herokuapp.com/'
 
     resource '*',
       headers: :any,
