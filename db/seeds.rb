@@ -27,3 +27,4 @@ Painting.create([
   {title: "Campbells Soup Can", style: "Pop art", price: "$11,776,000", url: "https://bit.ly/_CSC", artist_id: 6 },
   {title: "Saturn Devouring His Son", style: "Romanticism", price: "100,000,000", url: "https://bit.ly/__SDHS", artist_id: 7 }
   ])
+  puts "seeded"
